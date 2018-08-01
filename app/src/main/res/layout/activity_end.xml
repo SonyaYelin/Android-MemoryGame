@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clouds_background"
+    android:weightSum="1"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="casual"
+        android:text="msg !!!!!!!!"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_new_game"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_selectLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/background_light"
+        android:text="@string/str_new_game"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@android:color/background_light"
+        android:text="@string/str_exit"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+</RelativeLayout>

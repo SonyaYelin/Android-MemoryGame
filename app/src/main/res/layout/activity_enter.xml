@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clouds_background"
+    android:layout_centerHorizontal="true"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="casual"
+        android:text="@string/str_welcome"
+        android:textColor="@android:color/black"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:textSize="24dp"
+        android:hint="@string/str_enter_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:textSize="24dp"
+        android:hint="@string/str_enter_age"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/background_light"
+        android:text="@string/str_enter"
+        android:textSize="24dp" />
+
+</RelativeLayout>

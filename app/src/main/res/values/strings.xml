@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="str_welcome">Welcome !</string>
+    <string name="str_edit_name">Name:</string>
+    <string name="str_edit_age">Age:</string>
+    <string name="str_enter">Enter</string>
+    <string name="str_normal">normal</string>
+    <string name="str_hard">hard</string>
+    <string name="str_easy">easy</string>
+    <string name="str_select_game_level">Select Game Level:</string>
+    <string name="str_name">Name</string>
+    <string name="str_timer">timer</string>
+    <string name="str_details">details</string>
+    <string name="str_enter_age">Enter Age</string>
+    <string name="str_enter_name">Enter Name</string>
+    <string name="str_new_game">new game</string>
+    <string name="str_exit">exit</string>
+    <string name="str_records_table">Records Table</string>
+    <string name="str_records">Records</string>
+    <string name="str_record_table">table</string>
+    <string name="str_map">map</string>
+    <string name="str_back">back</string>
+    <string name="str_score">Score</string>
+    <string name="str_location">Location</string>
+</resources>

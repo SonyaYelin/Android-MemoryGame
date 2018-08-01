@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clouds_background"
+    android:weightSum="1"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/tv_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/str_details"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_selectLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="casual"
+        android:text="@string/str_select_game_level"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_easy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="@string/str_easy"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/background_light"
+        android:text="@string/str_normal"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_hard"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/background_light"
+        android:text="@string/str_hard"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_records"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/str_records"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+</RelativeLayout>
